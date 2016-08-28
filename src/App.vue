@@ -2,7 +2,10 @@
   export default {
     data () {
       return {
-        lang: 'fr'
+        lang: 'fr',
+        colors: [
+          '#405de6', '#5851db', '#833ab4', '#c13584', '#e1306c', '#fd1d1d', '#f56040', '#f77737', '#fcaf45', '#ffdc80'
+        ]
       }
     },
     methods: {
